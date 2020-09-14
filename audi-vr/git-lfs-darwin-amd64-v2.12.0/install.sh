@@ -20,3 +20,6 @@ popd > /dev/null
 
 PATH+=:$prefix/bin
 git lfs install
+
+git lfs track "*audi.obj" 
+git add .gitattributes
