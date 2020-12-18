@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+
+<head>
+	<title>Locatel</title>
+	  <meta charset="utf-8">
+	  <meta name="viewport" content="width=device-width, initial-scale=1">
+	  
+	  	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+
+	  	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+	 
+	  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+	  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+
+	  <link href="external/index.css" type="text/css" rel="stylesheet" />
+
+	  <script
+      src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDwD6-XC2-S73aLZ16pbKr5A3HICdf9ikU&callback=initMap&libraries=places&v=weekly"
+      defer></script>
+</head>
+
+
+<html>
+	<body>
+
+		<header>
+			<nav class="main-nav">
+				<img src="images/logo.png">
+			</nav>
+		</header>
+
+		<h2 style="font-weight:bold; font-size: 24px; margin-top: 15px;">Find and locate your favorite hotel in Jakarta!</h2>
+
+		<div id="buttons">
+			<h3>Jakarta</h3>
+			<p>5 STAR HOTEL</p>
+		<button class="btn btn-md btn-info" onclick="showme()">Four Seasons Jakarta</button><br>
+		<button class="btn btn-md btn-info" onclick="showme2()">Pullman Central Park</button><br>
+		<button class="btn btn-md btn-info" onclick="showme3()">Goodrich Suites</button><br>
+		<button class="btn btn-md btn-info" onclick="showme4()">Fairmont Jakarta</button><br>
+		<button class="btn btn-md btn-info" onclick="showme5()">Raffles Hotel Jakarta</button><br>
+		<button class="btn btn-md btn-info" onclick="showme6()">DoubleTree by Hilton</button><br>
+		<button class="btn btn-md btn-info" onclick="showme7()">Kempinski Hotel Jakarta</button><br>
+		<button class="btn btn-md btn-info" onclick="showme8()">Ritz-Carlton Jakarta</button><br>
+		</div>
+
+		<iframe id="thatsit" src=""></iframe>
+
+		<script>
+
+			//API Key: AIzaSyDwD6-XC2-S73aLZ16pbKr5A3HICdf9ikU
+
+
+		function getLocation() {
+		  navigator.geolocation.getCurrentPosition(showPosition);
+		}
+
+		function showme() {
+			// https://developers.google.com/maps/documentation/embed/map-generator
+			var x = document.querySelector('#thatsit');
+			x.src = 'https://www.google.com/maps/embed/v1/place?q=place_id:ChIJj5UBtBr0aS4R8Ns75zcjjOU&key=AIzaSyDwD6-XC2-S73aLZ16pbKr5A3HICdf9ikU';
+		}
+
+		function showme2() {
+			var x = document.querySelector('#thatsit');
+			x.src = 'https://www.google.com/maps/embed/v1/place?q=place_id:ChIJSdyLZF_2aS4RZokg06PF_j0&key=AIzaSyDwD6-XC2-S73aLZ16pbKr5A3HICdf9ikU';
+		}
+
+		function showme3() {
+			var x = document.querySelector('#thatsit');
+			x.src = 'https://www.google.com/maps/embed/v1/place?q=place_id:ChIJ3yCByWHxaS4R62pcRN6uru0&key=AIzaSyDwD6-XC2-S73aLZ16pbKr5A3HICdf9ikU';
+		}
+
+		function showme4() {
+			var x = document.querySelector('#thatsit');
+			x.src = 'https://www.google.com/maps/embed/v1/place?q=place_id:ChIJG_EnXEnxaS4R0gikKv_y6GM&key=AIzaSyDwD6-XC2-S73aLZ16pbKr5A3HICdf9ikU';
+		}
+
+		function showme5() {
+			var x = document.querySelector('#thatsit');
+			x.src = 'https://www.google.com/maps/embed/v1/place?q=place_id:ChIJ8TqBZvzzaS4RTVnLy82UkHM&key=AIzaSyDwD6-XC2-S73aLZ16pbKr5A3HICdf9ikU';
+		}
+
+		function showme6() {
+			var x = document.querySelector('#thatsit');
+			x.src = 'https://www.google.com/maps/embed/v1/place?q=place_id:ChIJHSO61Gr0aS4RJl0c_AEAvS0&key=AIzaSyDwD6-XC2-S73aLZ16pbKr5A3HICdf9ikU';
+		}
+
+		function showme7() {
+			var x = document.querySelector('#thatsit');
+			x.src = 'https://www.google.com/maps/embed/v1/place?q=place_id:ChIJB9Y8liH0aS4RemVuMOm5PFA&key=AIzaSyDwD6-XC2-S73aLZ16pbKr5A3HICdf9ikU';
+		}
+
+		function showme8() {
+			var x = document.querySelector('#thatsit');
+			x.src = 'https://www.google.com/maps/embed/v1/place?q=place_id:ChIJKXIVIuXzaS4RzNZS5w0_pDU&key=AIzaSyDwD6-XC2-S73aLZ16pbKr5A3HICdf9ikU';
+		}
+
+		</script>
+
+
+		<!--<input type="text" id="inputme">
+
+		<button type="button" class="btn" onclick="getLocation()">Search</button>
+
+		<div id="viewmap"></div>-->
+
+
+
+
+
+		<script type="text/javascript" src="external/index.js"></script>  
+
+	</body>
+</html>
+
+<body>
