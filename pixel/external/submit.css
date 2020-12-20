@@ -1,0 +1,142 @@
+	* {
+		margin: 0;
+		padding: 0;
+		font-family: 'avenir', sans-serif;
+		justify-content: left;
+		color: white;
+		/*max-width: 980px;*/
+	}
+
+	body {
+		/*max-width: 50%;*/
+		text-align: left;
+		background-color: white;
+
+	}
+
+	header{
+		background-color: black;
+		margin-bottom: 40px;
+	}
+
+	.main-nav{
+		text-align: left;
+		padding: 30px 0 30px 20px;
+	}
+
+	.main-nav img{
+		width: 155px;
+		height:  50px;
+	}
+
+	#row1{
+		margin: 40px 0;
+	}
+
+	#row1 img{
+		width: 380px;
+		height: 380px;
+		display: block; /*activate centering image*/
+		justify-content: center;
+		margin: 0 auto;
+
+	}
+
+
+	#row2 {
+		background-color: #333333;
+		padding: 50px 0;
+	}
+
+	#row2 img{
+		width: 390px;
+		height: 456px;
+		display: block; /*activate centering image*/
+		justify-content: center;
+		margin: 0 auto;
+
+	}
+
+	#row3 {
+		background-color: #2e6ce8;
+		padding: 35px 0;
+	}
+
+	#row3 img{
+		width: 380px;
+		height: 380px;
+		display: block; /*activate centering image*/
+		justify-content: center;
+		margin: 0 auto;
+
+	}
+
+	#row3 p{
+		margin-top: 20px;
+		text-align: center;
+		color:#ffffff;
+
+	}
+
+	h3{
+		text-align: center;
+		color:#ffffff;
+		font-weight: bold;
+	}
+
+	div.head-text{
+		margin: 0 30px;
+		text-align: center;
+	}
+
+	#row1 div h2{
+		font-weight: bold;
+		color: #2e6ce8;
+		margin-bottom: 10px;
+	}
+
+	#row1 div h6{
+		
+	}
+
+	#row1 button{
+		border-radius: 39px;
+	}
+
+	footer {
+		background-color: #333333;
+		padding: 15px 0;
+		color: #ffffff;
+		text-align: center;
+	}
+
+
+/*ARKKA - SUBMIT*/
+
+button{
+	border-radius: 39px;
+	border-style: none;
+	width: 170px;
+	height:50px;
+	background-color: black;
+}
+
+div.container input{
+	color: black;
+	border-style: none;
+	width: 150px;
+	height: 27px;
+	font-size: 18px;
+}
+
+div .form{
+	margin: 20px auto;
+}
+/*ARKKA - THANK YOU*/
+
+
+
+
+
+
+
